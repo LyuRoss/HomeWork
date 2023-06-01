@@ -1,0 +1,6 @@
+let sum = ''
+for (let i = 1; i < 11; i++) {
+    if (i % 2 == 1) continue;
+      sum += i + " ";
+  }
+  console.log(sum);
